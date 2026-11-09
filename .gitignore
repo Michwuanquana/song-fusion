@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Generované a stahované (setup.ps1 si ACE-Step klonuje sám)
+vendor/
+cache/
+outputs/
+loras/
+
+# Audio, modely, váhy (autorská práva a velikost)
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.m4a
+*.opus
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.mid
+
+# Tajemství pro jistotu
+.env
+*.key
+*.pem
